@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    height:10vh;
+    background-color: black;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.search-container {
+    background-color: black;
+    height: 100vh;
+}
+
+#current-weather {
+    max-height: 46vh;
+    background-color: rgb(104, 3, 16);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: rgb(252, 248, 248);
+    font-style: oblique;
+}
+#forcast-container {
+    max-height: 50vh;
+}
+#titleContainer img {
+    max-width: 5%;
+}
+
+.searchHistory {
+    background-color: #1FB1D6;
+    font-size: 18px;
+}
+
+/* Five Day Forcast Cards */
+.forcast {
+    background-color: rgb(122, 204, 252);
+}
